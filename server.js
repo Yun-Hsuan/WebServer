@@ -1,6 +1,6 @@
 const http = require('http')
 
-var port = process.env.port
+var port = process.env.PORT
 // Build a HttpServer
 // req (Request) ask from clients.
 // res (Response) return states from server.
