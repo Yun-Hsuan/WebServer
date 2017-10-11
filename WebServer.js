@@ -1,5 +1,6 @@
 const http = require('http')
 
+var port = process.env.port
 // Build a HttpServer
 // req (Request) ask from clients.
 // res (Response) return states from server.
@@ -17,5 +18,5 @@ var server = http.createServer(function(req, res){
 });
 
 // Open port 1234 and run the server.
-server.listen(1234)
+server.listen(port)
 console.log("Server running at prot http://127.0.0.1:1234");
