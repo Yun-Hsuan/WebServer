@@ -19,4 +19,4 @@ var server = http.createServer(function(req, res){
 
 // Open port 1234 and run the server.
 server.listen(port)
-console.log("Server running at prot http://127.0.0.1:1234");
+console.log("Server running at prot http://127.0.0.1:"+port);
