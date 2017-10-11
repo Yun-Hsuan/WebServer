@@ -1,15 +1,19 @@
 {
-  "name": "mongodb_server",
+  "name": "webserver",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "dependencies": {
-    "mongodb": "^2.2.31"
-  },
-  "devDependencies": {},
+  "description": "Tutorial",
+  "main": "WebServer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "YHC",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yun-Hsuan/WebServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yun-Hsuan/WebServer/issues"
+  },
+  "homepage": "https://github.com/Yun-Hsuan/WebServer#readme"
 }
